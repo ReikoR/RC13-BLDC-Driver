@@ -9018,38 +9018,38 @@ Source: www.kingbright.com</description>
 </net>
 <net name="H2" class="0">
 <segment>
-<pinref part="MOTOR" gate="A" pin="8"/>
-<wire x1="208.28" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
-<label x="200.66" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="DRV" gate="G$1" pin="H2"/>
 <wire x1="17.78" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
 <label x="7.62" y="50.8" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="H1" class="0">
 <segment>
 <pinref part="MOTOR" gate="A" pin="9"/>
 <wire x1="208.28" y1="43.18" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
 <label x="200.66" y="43.18" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="H1" class="0">
 <segment>
 <pinref part="DRV" gate="G$1" pin="H1"/>
 <wire x1="17.78" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
 <label x="7.62" y="53.34" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="H3" class="0">
 <segment>
 <pinref part="MOTOR" gate="A" pin="10"/>
 <wire x1="208.28" y1="40.64" x2="200.66" y2="40.64" width="0.1524" layer="91"/>
 <label x="200.66" y="40.64" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="H3" class="0">
 <segment>
 <pinref part="DRV" gate="G$1" pin="H3"/>
 <wire x1="17.78" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 <label x="7.62" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MOTOR" gate="A" pin="8"/>
+<wire x1="208.28" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
+<label x="200.66" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
